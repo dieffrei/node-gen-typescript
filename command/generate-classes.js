@@ -74,7 +74,7 @@ var conn = new jsforce.Connection({
     loginUrl : 'https://login.salesforce.com'
 });
 
-conn.login('dieffrei@trailhead.com', 'tobi86!@nguKNynxPks7NjgxYCdT7hC4', function(err, userInfo) {
+conn.login('username', 'password', function(err, userInfo) {
     if (err) { return console.error(err); }
 
     console.log(conn.accessToken);
