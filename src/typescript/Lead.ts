@@ -1,0 +1,67 @@
+
+class Lead {
+    
+    public Id: String;
+    public IsDeleted: Boolean;
+    public MasterRecordId: String;
+    public LastName: String;
+    public FirstName: String;
+    public Salutation: String;
+    public Name: String;
+    public Title: String;
+    public Company: String;
+    public Street: String;
+    public City: String;
+    public State: String;
+    public PostalCode: String;
+    public Country: String;
+    public Latitude: Object;
+    public Longitude: Object;
+    public Address: Object;
+    public Phone: Object;
+    public MobilePhone: Object;
+    public Fax: Object;
+    public Email: Object;
+    public Website: Object;
+    public PhotoUrl: Object;
+    public Description: String;
+    public LeadSource: String;
+    public Status: String;
+    public Industry: String;
+    public Rating: String;
+    public AnnualRevenue: Number;
+    public NumberOfEmployees: Object;
+    public OwnerId: String;
+    public IsConverted: Boolean;
+    public ConvertedDate: Date;
+    public ConvertedAccountId: String;
+    public ConvertedContactId: String;
+    public ConvertedOpportunityId: String;
+    public IsUnreadByOwner: Boolean;
+    public CreatedDate: Date;
+    public CreatedById: String;
+    public LastModifiedDate: Date;
+    public LastModifiedById: String;
+    public SystemModstamp: Date;
+    public LastActivityDate: Date;
+    public LastViewedDate: Date;
+    public LastReferencedDate: Date;
+    public Jigsaw: String;
+    public JigsawContactId: String;
+    public CleanStatus: String;
+    public CompanyDunsNumber: String;
+    public DandbCompanyId: String;
+    public EmailBouncedReason: String;
+    public EmailBouncedDate: Date;
+    public SICCode__c: String;
+    public ProductInterest__c: String;
+    public Primary__c: String;
+    public CurrentGenerators__c: String;
+    public NumberofLocations__c: Object;
+    public DB_Created_Date_without_Time__c: Date;
+    public DB_Lead_Age__c: Object;
+    public Lead_Quality_Helper__c: Object;
+    public Lead_Quality__c: String;
+
+    construct(){}
+}

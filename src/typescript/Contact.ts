@@ -1,0 +1,65 @@
+
+class Contact {
+    
+    public Id: String;
+    public IsDeleted: Boolean;
+    public MasterRecordId: String;
+    public AccountId: String;
+    public LastName: String;
+    public FirstName: String;
+    public Salutation: String;
+    public Name: String;
+    public OtherStreet: String;
+    public OtherCity: String;
+    public OtherState: String;
+    public OtherPostalCode: String;
+    public OtherCountry: String;
+    public OtherLatitude: Object;
+    public OtherLongitude: Object;
+    public OtherAddress: Object;
+    public MailingStreet: String;
+    public MailingCity: String;
+    public MailingState: String;
+    public MailingPostalCode: String;
+    public MailingCountry: String;
+    public MailingLatitude: Object;
+    public MailingLongitude: Object;
+    public MailingAddress: Object;
+    public Phone: Object;
+    public Fax: Object;
+    public MobilePhone: Object;
+    public HomePhone: Object;
+    public OtherPhone: Object;
+    public AssistantPhone: Object;
+    public ReportsToId: String;
+    public Email: Object;
+    public Title: String;
+    public Department: String;
+    public AssistantName: String;
+    public LeadSource: String;
+    public Birthdate: Date;
+    public Description: String;
+    public OwnerId: String;
+    public CreatedDate: Date;
+    public CreatedById: String;
+    public LastModifiedDate: Date;
+    public LastModifiedById: String;
+    public SystemModstamp: Date;
+    public LastActivityDate: Date;
+    public LastCURequestDate: Date;
+    public LastCUUpdateDate: Date;
+    public LastViewedDate: Date;
+    public LastReferencedDate: Date;
+    public EmailBouncedReason: String;
+    public EmailBouncedDate: Date;
+    public IsEmailBounced: Boolean;
+    public PhotoUrl: Object;
+    public Jigsaw: String;
+    public JigsawContactId: String;
+    public CleanStatus: String;
+    public Level__c: String;
+    public Languages__c: String;
+    public Day_of_the_Week__c: String;
+
+    construct(){}
+}
